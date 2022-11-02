@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Layout from "./components/Layout";
+import ArtPortfolioPage from "./components/ArtPortfolioPage";
+import SoftwarePortfolioPage from "./components/SoftwarePortfolioPage";
+import MainPage from "./components/MainPage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <>
+            <div className="page-content">
+                        <BrowserRouter>
+                            <Routes>
+                                <Route element={<Layout/>}>
+                                    <Route path='/' element={<MainPage key="main-page"/>}/>
+                                    <Route path='/software'
+                                           element={<SoftwarePortfolioPage key="software-portfolio-page"/>}/>
+                                    <Route path='/art' element={<ArtPortfolioPage key="art-portfolio-page"/>}/>
+                                </Route>
+                            </Routes>
+                        </BrowserRouter>
+            </div>
+        </>
+    );
 }
 
 export default App;

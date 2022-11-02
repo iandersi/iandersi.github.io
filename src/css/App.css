@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+  background: linear-gradient(-70deg, rgba(22,0,0,0) -100%, rgb(0, 0, 0) 60%) fixed, url("/public/main.jpeg") top left / 100% 100% no-repeat fixed;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+h3 {
+  font-size: 1vw;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.page-selection-static {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.page-selection-static span {
+  font-size: 1vw;
+}
+
+.main-page-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50vw;
+  margin-top: 12vw;
+  margin-left: 20vw;
+}
+
+.contact-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 46%;
+  border: solid rgb(236, 228, 255) 5px;
+  box-shadow: 0 0 20px rgba(89, 45, 243, 0.5);
+  animation: fadeIn 7s;
+}
+.contact-information p {
+  margin: 10px 3px;
+}
+
+.contact-information p a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-page-margin {
+  margin-bottom: 40vh;
+}
+
+.page-selection-static a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.page-selection-animated a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.art-and-software-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.art-and-software-page-container h1 {
+  animation: fadeIn 5s;
+  margin-top: 7vh;
+}
+
+.art-and-software-page-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  animation: fadeIn 5s;
+}
+
+.content.artwork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5vh;
+}
+
+.content-carousel {
+  border: solid rgb(236, 228, 255) 5px;
+  box-shadow: 0 0 50px rgba(89, 45, 243, 0.5);
+}
+
+.software-slideshow-text-white {
+  color: white;
+}
+
+.software-slideshow-text-black {
+  color:black;
+}
+
+.software-slideshow-text-black a {
+  color:inherit;
+}
+
+.content-carousel {
+  width: 900px;
+}
+
+.footer {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: 1.5vh;
+  opacity: 0.5;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@media screen and (max-width: 1600px){
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  .main-page-margin {
+   margin-bottom: 20vh;
+  }
+
+  .page-selection-static a span {
+    font-size: 1.5vw;
+  }
+
+  .page-selection-static a h3 {
+    font-size: 1.5vw;
+  }
+
+  .contact-information p {
+    font-size: 1.5vw;
+  }
+
+}
+
+@media screen and (max-width: 900px){
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 2vh;
+  }
+
+  .content-carousel {
+    width: 500px;
+  }
+
+  .d-block {
+    width: 500px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 4vw;
+  }
+
+  .carousel-caption p {
+    font-size: 2vw;
+  }
+
+  .page-selection a h3 {
+    font-size: 2vw;
+  }
+
+  .contact-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vh;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+
+  .main-page-title h1 {
+    font-size: 5vh;
+  }
+
+  .page-selection .animated a {
+    font-size: 6vh;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+  h2 {
+    font-size: 3vh;
+  }
+
+  .content-carousel {
+    width: 300px;
+  }
+
+  .d-block {
+    width: 300px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 3vw;
+  }
+
+  .carousel-caption p {
+    font-size: 1.5vw;
+  }
+
+  .page-selection-static a h3 {
+    font-size: 3vw;
+  }
+
+  .page-content p {
+    font-size: 3vw;
+  }
+
+  .contact-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vh;
+  }
+
+  .contact-information p {
+    font-size: 3vw;
+  }
+
+  .page-selection-animated a span {
+    font-size: 3vw;
+  }
+
+}
