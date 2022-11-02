@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/iandersi.github.io/static/css/main.0e88840b.css",
+    "main.js": "/iandersi.github.io/static/js/main.212a5714.js",
+    "static/media/main.jpeg": "/iandersi.github.io/static/media/main.202955c27e6b2145e8ca.jpeg",
+    "index.html": "/iandersi.github.io/index.html",
+    "main.0e88840b.css.map": "/iandersi.github.io/static/css/main.0e88840b.css.map",
+    "main.212a5714.js.map": "/iandersi.github.io/static/js/main.212a5714.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e88840b.css",
+    "static/js/main.212a5714.js"
+  ]
+}
