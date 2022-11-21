@@ -32,6 +32,18 @@ export default function ArtPortfolioPage() {
                             </Carousel.Item>
                         </Carousel>
                     </div>
+                    <h2>Creatures</h2>
+                    <div className="content-carousel">
+                        <Carousel>
+                        <Carousel.Item>
+                            <img className="d-block" src="/artwork/Venom_cropped.jpg"/>
+                            <Carousel.Caption>
+                                <h2>Venom (2020)</h2>
+                                <p>Creature portrait (Marvel Comics) - Krita 5.1.1 - Wacom Cintiq</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel></div>
+
                     <h2>Landscapes & Still Life</h2>
                     <div className="content-carousel">
                         <Carousel>
