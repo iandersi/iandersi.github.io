@@ -7,12 +7,12 @@ import Footer from "./Footer";
 export default function MainPage() {
     useDocumentTitle('Home');
     return (
-        <>
-            <div className="main-page-title">
+        <div className="main-page-container">
+            <div className="main-page-content">
                 <h1><Typewriter text="Ina Andersin Portfolio" cursor={true} speed={100}/></h1>
                 <AnimatedNavigationBar/>
                 <div className="main-page-margin"/>
-                <p><Typewriter text="Contact me" cursor={false} speed={150}/></p>
+                <h3 style={{color: 'white'}}><Typewriter text="Contact me" cursor={false} speed={150}/></h3>
                 <div className="contact-information">
                     <p><a href="https://github.com/iandersi?tab=repositories">Github</a></p>
                     <p><a href="https://inaandersin.wordpress.com/">Wordpress</a></p>
@@ -20,8 +20,10 @@ export default function MainPage() {
                     <p>Artstation</p>
                 </div>
             </div>
-            <Footer/>
-        </>
+            <div className="main-page-footer">
+                <Footer/>
+            </div>
+        </div>
     )
 }
 
