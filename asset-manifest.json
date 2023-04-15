@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.1253d36e.css",
-    "main.js": "/static/js/main.07eb8f52.js",
+    "main.css": "/static/css/main.cb304388.css",
+    "main.js": "/static/js/main.887e1704.js",
     "static/media/main.jpeg": "/static/media/main.c1032c29ea9b845ae5dd.jpeg",
+    "static/media/clutter_cropped.png": "/static/media/clutter_cropped.91e7d680506b0ee73220.png",
+    "static/media/iomin_cropped.png": "/static/media/iomin_cropped.7ab9758e65cbd339c484.png",
     "static/media/Venom_cropped.jpg": "/static/media/Venom_cropped.f55dce8e86d78cd2434d.jpg",
     "static/media/elokuva_paikkavaraus.png": "/static/media/elokuva_paikkavaraus.39e27b85b4ee7a392db6.png",
     "static/media/asetelma_cropped.png": "/static/media/asetelma_cropped.fcf5ab3039ff6b97c028.png",
-    "static/media/Murdoch_pencil_cropped.jpg": "/static/media/Murdoch_pencil_cropped.fb08c804c04c3c5079af.jpg",
-    "static/media/blossomnightelf_cropped.jpg": "/static/media/blossomnightelf_cropped.d85d5df7d114df5d03c9.jpg",
+    "static/media/BedRoom_cropped.png": "/static/media/BedRoom_cropped.be7e7294b3bf05fc8a55.png",
+    "static/media/ellie_cropped.jpg": "/static/media/ellie_cropped.d4d8f3e9ee75915924c7.jpg",
+    "static/media/joker_cropped.jpg": "/static/media/joker_cropped.0410f7da18dcf7280634.jpg",
     "static/media/winter_cropped.jpg": "/static/media/winter_cropped.63ebbf0856c691b902fd.jpg",
-    "static/media/oathbreaker_cropped.jpg": "/static/media/oathbreaker_cropped.f03f745085dbe19d99ae.jpg",
     "static/media/rivorn_cropped.png": "/static/media/rivorn_cropped.d68c13a89950331df290.png",
     "static/media/eyesonme_cropped.jpg": "/static/media/eyesonme_cropped.04b24d2001ae3f8388ab.jpg",
     "static/media/TT.png": "/static/media/TT.ee6bfd54492a231dbcdd.png",
     "static/media/coldfusion.png": "/static/media/coldfusion.bd4aad2857dbd74dd3cc.png",
     "static/media/hildibot.png": "/static/media/hildibot.edb39e848e561dce176b.png",
     "index.html": "/index.html",
-    "main.1253d36e.css.map": "/static/css/main.1253d36e.css.map",
-    "main.07eb8f52.js.map": "/static/js/main.07eb8f52.js.map"
+    "main.cb304388.css.map": "/static/css/main.cb304388.css.map",
+    "main.887e1704.js.map": "/static/js/main.887e1704.js.map"
   },
   "entrypoints": [
-    "static/css/main.1253d36e.css",
-    "static/js/main.07eb8f52.js"
+    "static/css/main.cb304388.css",
+    "static/js/main.887e1704.js"
   ]
 }
