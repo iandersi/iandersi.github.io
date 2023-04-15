@@ -40,18 +40,12 @@ p {
   flex-direction: column;
 }
 
-.main-page-footer {
-  display: flex;
-  justify-content: center;
-}
-
 .main-page-content {
   display: flex;
   flex-direction: column;
   width: 50%;
   margin-left: 20vw;
   padding-top: 12vw;
-  height: 100vh;
 
 }
 
@@ -157,43 +151,39 @@ p {
   margin-top: 7vh;
 }
 
-.artwork-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
 .content {
   animation: fadeIn 1s;
 }
 
 .content.artwork {
   display: flex;
-  align-items: center;
-  flex: 1 1 0;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-top: 0.5rem;
+  flex-direction: column;
 }
-.content.artwork h3 {
-  text-align: center;
+
+.portraits, .studies, .blender {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portraits, .studies, .blender > h3 {
+ margin-top: 1rem;
 }
 
 .artwork-images-and-description {
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  align-items: center;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
 }
 
-.artwork-images-and-description div {
-  text-align: center;
-  max-width: 200px;
-}
-
-.content.artwork img {
-  border: black solid 1px;
-  margin: 1px;
+.artwork-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .content.software {
@@ -271,10 +261,9 @@ p {
 /*FOOTER*/
 
 .footer {
-  text-align: center;
-  position: absolute;
-  bottom: 0%;
-  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 
 .footer > div {
