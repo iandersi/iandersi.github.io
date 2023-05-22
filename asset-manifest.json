@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.be9accd9.css",
-    "main.js": "/static/js/main.738892a8.js",
+    "main.css": "/static/css/main.de184d86.css",
+    "main.js": "/static/js/main.6b827723.js",
     "static/media/main.jpeg": "/static/media/main.c1032c29ea9b845ae5dd.jpeg",
     "static/media/iomin2023.png": "/static/media/iomin2023.e55df3c82e6be0494464.png",
     "static/media/hayfield2023.png": "/static/media/hayfield2023.4b5275d9eadd3303558e.png",
+    "static/media/helsinkicitybikeapp.png": "/static/media/helsinkicitybikeapp.1292679ee883f0a679a1.png",
     "static/media/vinah2021.jpg": "/static/media/vinah2021.b4b06a4d657a5d52c935.jpg",
     "static/media/asetelma2022.png": "/static/media/asetelma2022.c7a736ae5ba1c4ebe0fa.png",
     "static/media/rivorn_s.png": "/static/media/rivorn_s.c75e44929b57016b5df2.png",
@@ -16,11 +17,11 @@
     "static/media/coldfusion.png": "/static/media/coldfusion.bd4aad2857dbd74dd3cc.png",
     "static/media/hildibot.png": "/static/media/hildibot.edb39e848e561dce176b.png",
     "index.html": "/index.html",
-    "main.be9accd9.css.map": "/static/css/main.be9accd9.css.map",
-    "main.738892a8.js.map": "/static/js/main.738892a8.js.map"
+    "main.de184d86.css.map": "/static/css/main.de184d86.css.map",
+    "main.6b827723.js.map": "/static/js/main.6b827723.js.map"
   },
   "entrypoints": [
-    "static/css/main.be9accd9.css",
-    "static/js/main.738892a8.js"
+    "static/css/main.de184d86.css",
+    "static/js/main.6b827723.js"
   ]
 }
