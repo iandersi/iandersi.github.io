@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.27d19868.css",
-    "main.js": "/static/js/main.8cdd97a6.js",
+    "main.js": "/static/js/main.053c2191.js",
     "static/media/main.jpeg": "/static/media/main.1db9aad29617a93d92f6.jpeg",
-    "static/media/cabin.png": "/static/media/cabin.a5ad8f9d5f565c4983c3.png",
+    "static/media/cabin.png": "/static/media/cabin.53d6d78b19a7332bf251.png",
+    "static/media/room.png": "/static/media/room.ef93117f889eafbd18b4.png",
     "static/media/helsinkicitybikeapp.png": "/static/media/helsinkicitybikeapp.1292679ee883f0a679a1.png",
-    "static/media/room.png": "/static/media/room.b16c0b3c52be7ac966a7.png",
     "static/media/elokuva_paikkavaraus.png": "/static/media/elokuva_paikkavaraus.39e27b85b4ee7a392db6.png",
     "static/media/amata.png": "/static/media/amata.ec720d473bcc1a2c7499.png",
     "static/media/iomin.png": "/static/media/iomin.46926c367b8fe4d817b8.png",
@@ -17,10 +17,10 @@
     "static/media/hildibot.png": "/static/media/hildibot.edb39e848e561dce176b.png",
     "index.html": "/index.html",
     "main.27d19868.css.map": "/static/css/main.27d19868.css.map",
-    "main.8cdd97a6.js.map": "/static/js/main.8cdd97a6.js.map"
+    "main.053c2191.js.map": "/static/js/main.053c2191.js.map"
   },
   "entrypoints": [
     "static/css/main.27d19868.css",
-    "static/js/main.8cdd97a6.js"
+    "static/js/main.053c2191.js"
   ]
 }
