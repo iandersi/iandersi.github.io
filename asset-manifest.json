@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.27d19868.css",
+    "main.css": "/static/css/main.8bc15094.css",
     "main.js": "/static/js/main.053c2191.js",
-    "static/media/main.jpeg": "/static/media/main.1db9aad29617a93d92f6.jpeg",
+    "static/media/main.jpeg": "/static/media/main.aa60216fff686936b4d0.jpeg",
     "static/media/cabin.png": "/static/media/cabin.53d6d78b19a7332bf251.png",
     "static/media/room.png": "/static/media/room.ef93117f889eafbd18b4.png",
     "static/media/helsinkicitybikeapp.png": "/static/media/helsinkicitybikeapp.1292679ee883f0a679a1.png",
@@ -16,11 +16,11 @@
     "static/media/coldfusion.png": "/static/media/coldfusion.bd4aad2857dbd74dd3cc.png",
     "static/media/hildibot.png": "/static/media/hildibot.edb39e848e561dce176b.png",
     "index.html": "/index.html",
-    "main.27d19868.css.map": "/static/css/main.27d19868.css.map",
+    "main.8bc15094.css.map": "/static/css/main.8bc15094.css.map",
     "main.053c2191.js.map": "/static/js/main.053c2191.js.map"
   },
   "entrypoints": [
-    "static/css/main.27d19868.css",
+    "static/css/main.8bc15094.css",
     "static/js/main.053c2191.js"
   ]
 }
