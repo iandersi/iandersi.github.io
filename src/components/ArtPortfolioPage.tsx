@@ -4,104 +4,58 @@ import StaticNavigationBar from "./StaticNavigationBar";
 import Footer from "./Footer";
 
 //images
-import winter from "../images/artwork/winter_cropped.jpg"
-import rivorn from "../images/artwork/rivorn_cropped.png"
-import eyesonme from "../images/artwork/eyesonme_cropped.jpg"
-import venom from "../images/artwork/Venom_cropped.jpg"
-import cutlery from "../images/artwork/asetelma_cropped.png"
-import iomin from "../images/artwork/iomin_cropped.png"
-import bedroom from "../images/artwork/BedRoom_cropped.png"
-import clutter from "../images/artwork/clutter_cropped.png"
-import joker from "../images/artwork/joker_cropped.jpg"
-import ellie from "../images/artwork/ellie_cropped.jpg"
+import necromancer from "../images/artwork/necromancer.png";
+import iomin from "../images/artwork/iomin.png";
+import rivorn from "../images/artwork/rivorn.png";
+import stagelight from "../images/artwork/stagelight.jpg";
+import hayfield from "../images/artwork/amata.png";
+import joker from "../images/artwork/joker_2020.jpg";
+import dawn from "../images/artwork/cabin.png";
+import room from "../images/artwork/room.png";
 
 
-let art = [
-    {title: "Eyes On Me (2022)"}
+let portraits = [
+    {img: necromancer, title: "Iarwath (2023)"},
+    {img: iomin, title: "Iómin (2023)"},
+    {img: hayfield, title: "Hayfield (2023)"},
+    {img: rivorn, title: "Rivorn (2022 )"},
+    {img: stagelight, title: "Stagelight (2021)"},
+    {img: joker, title: "The Joker (2020)"}
+]
+
+let blender = [
+    {img: dawn, title: "Dawn (2023)"},
+    {img: room, title: "Room (2023)"}
 ]
 
 export default function ArtPortfolioPage() {
     useDocumentTitle('Art');
     return (
-        <div className="art-and-software-wrapper">
-            <div className="art-and-software-page-container">
-                <div className="title-and-navigation">
-                    <h1>Artwork</h1>
-                    <StaticNavigationBar/>
-                </div>
-                <div className="content artwork">
-
-                    <div className="portraits">
-                        <h3>Portraits & Creatures</h3>
-                        <div className="artwork-images">
-                            <div className="artwork-images-and-description">
-                                <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={iomin}/>
-                                <div>Iómin (2023)</div>
-                                <div>Wacom Cintiq / Krita</div>
-                            </div>
-                            <div className="artwork-images-and-description">
-                                <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={eyesonme}/>
-                                <div>Stage Light (2022)</div>
-                                <div>Wacom Cintiq / Krita</div>
-                            </div>
-                            <div className="artwork-images-and-description">
-                                <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={rivorn}/>
-                                <div>Rivorn (2022)</div>
-                                <div>Wacom Cintiq / Krita</div>
-                            </div>
-                            <div className="artwork-images-and-description">
-                                <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={joker}/>
-                                <div>The Joker (2020)</div>
-                                <div>Huion P1060 / Krita </div>
-                            </div>
-                            <div className="artwork-images-and-description">
-                                <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={venom}/>
-                                <div>Venom (2019)</div>
-                                <div>Watercolor pencils and promarkers</div>
-                            </div>
-                            <div className="artwork-images-and-description">
-                                <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={ellie}/>
-                                <div>Ellie - The Last of Us (2019)</div>
-                                <div>Graphite pencils</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="studies">
-                        <h3>Studies</h3>
-                        <div className="artwork-images">
-                            <div className="artwork-images-and-description">
-                                <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={winter}/>
-                                <div>Master Study (2022)</div>
-                                <div>Wacom Cintiq / Krita </div>
-                            </div>
-                            <div className="artwork-images-and-description">
-                                <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={cutlery}/>
-                                <div>Material Study (2022)</div>
-                                <div>Wacom Cintiq / Krita</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="blender">
-                        <h3>Blender 3D</h3>
-                        <div className="artwork-images">
-                            <div className="artwork-images-and-description">
-                                <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={bedroom}/>
-                                <div>Cozy Bedroom (2023)</div>
-                                <div>Blender 3.4</div>
-                            </div>
-                            <div className="artwork-images-and-description">
-                                <img style={{width: '300px', height: '300px', objectFit: 'cover'}} src={clutter}/>
-                                <div>Clutter (2023)</div>
-                                <div>Blender 3.5</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+        <div className="art-and-software-page-container">
+            <div className="title-and-navigation">
+                <h1>Artwork</h1>
+                <StaticNavigationBar/>
             </div>
-            <Footer/>
+            <div className="content artwork">
+                {portraits.map(art => {
+                    return (
+                        <div className="img-and-desc">
+                            <h4>{art.title}</h4>
+                            <img src={art.img}/>
+                        </div>
+                    )
+                })}
+            </div>
+            <div className="content artwork">
+                {blender.map(blender => {
+                    return (
+                        <div className="img-and-desc">
+                            <h4>{blender.title}</h4>
+                            <img src={blender.img}/>
+                        </div>
+                    )
+                })}
+            </div>
         </div>
     )
 }

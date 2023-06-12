@@ -21,7 +21,6 @@ export default function MainPage() {
                     <p>Artstation</p>
                 </div>
             </div>
-            <Footer/>
         </>
     )
 }
