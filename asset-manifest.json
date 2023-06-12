@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.de184d86.css",
-    "main.js": "/static/js/main.6b827723.js",
-    "static/media/main.jpeg": "/static/media/main.c1032c29ea9b845ae5dd.jpeg",
-    "static/media/iomin2023.png": "/static/media/iomin2023.e55df3c82e6be0494464.png",
-    "static/media/hayfield2023.png": "/static/media/hayfield2023.4b5275d9eadd3303558e.png",
+    "main.css": "/static/css/main.27d19868.css",
+    "main.js": "/static/js/main.8cdd97a6.js",
+    "static/media/main.jpeg": "/static/media/main.1db9aad29617a93d92f6.jpeg",
+    "static/media/cabin.png": "/static/media/cabin.a5ad8f9d5f565c4983c3.png",
     "static/media/helsinkicitybikeapp.png": "/static/media/helsinkicitybikeapp.1292679ee883f0a679a1.png",
-    "static/media/vinah2021.jpg": "/static/media/vinah2021.b4b06a4d657a5d52c935.jpg",
-    "static/media/asetelma2022.png": "/static/media/asetelma2022.c7a736ae5ba1c4ebe0fa.png",
-    "static/media/rivorn_s.png": "/static/media/rivorn_s.c75e44929b57016b5df2.png",
-    "static/media/winter.jpg": "/static/media/winter.2af22c532daba22fd7fc.jpg",
+    "static/media/room.png": "/static/media/room.b16c0b3c52be7ac966a7.png",
     "static/media/elokuva_paikkavaraus.png": "/static/media/elokuva_paikkavaraus.39e27b85b4ee7a392db6.png",
-    "static/media/joker_2020.jpg": "/static/media/joker_2020.b5b5b8f8dbfe6cbfb655.jpg",
-    "static/media/stagelight.jpg": "/static/media/stagelight.443a010ec24a844ae180.jpg",
-    "static/media/TT.png": "/static/media/TT.ee6bfd54492a231dbcdd.png",
+    "static/media/amata.png": "/static/media/amata.ec720d473bcc1a2c7499.png",
+    "static/media/iomin.png": "/static/media/iomin.46926c367b8fe4d817b8.png",
+    "static/media/rivorn.png": "/static/media/rivorn.7dcb891ea172d85b6ec1.png",
+    "static/media/joker_2020.jpg": "/static/media/joker_2020.e1152bbda26127528889.jpg",
+    "static/media/necromancer.png": "/static/media/necromancer.afe012584bccbd4d9bbc.png",
+    "static/media/stagelight.jpg": "/static/media/stagelight.77fe3bd4504a2b42fcbd.jpg",
     "static/media/coldfusion.png": "/static/media/coldfusion.bd4aad2857dbd74dd3cc.png",
     "static/media/hildibot.png": "/static/media/hildibot.edb39e848e561dce176b.png",
     "index.html": "/index.html",
-    "main.de184d86.css.map": "/static/css/main.de184d86.css.map",
-    "main.6b827723.js.map": "/static/js/main.6b827723.js.map"
+    "main.27d19868.css.map": "/static/css/main.27d19868.css.map",
+    "main.8cdd97a6.js.map": "/static/js/main.8cdd97a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.de184d86.css",
-    "static/js/main.6b827723.js"
+    "static/css/main.27d19868.css",
+    "static/js/main.8cdd97a6.js"
   ]
 }
