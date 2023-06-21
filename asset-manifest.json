@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.96be708a.css",
-    "main.js": "/static/js/main.053c2191.js",
+    "main.js": "/static/js/main.5fc5c923.js",
     "static/media/cabin.png": "/static/media/cabin.53d6d78b19a7332bf251.png",
     "static/media/room.png": "/static/media/room.ef93117f889eafbd18b4.png",
     "static/media/helsinkicitybikeapp.png": "/static/media/helsinkicitybikeapp.1292679ee883f0a679a1.png",
@@ -9,6 +9,7 @@
     "static/media/main.webp": "/static/media/main.cdfea01b618b316bcda3.webp",
     "static/media/amata.png": "/static/media/amata.ec720d473bcc1a2c7499.png",
     "static/media/iomin.png": "/static/media/iomin.46926c367b8fe4d817b8.png",
+    "static/media/bloodmage.png": "/static/media/bloodmage.6df3095c6cc527019e22.png",
     "static/media/rivorn.png": "/static/media/rivorn.7dcb891ea172d85b6ec1.png",
     "static/media/joker_2020.jpg": "/static/media/joker_2020.e1152bbda26127528889.jpg",
     "static/media/necromancer.png": "/static/media/necromancer.afe012584bccbd4d9bbc.png",
@@ -17,10 +18,10 @@
     "static/media/hildibot.png": "/static/media/hildibot.edb39e848e561dce176b.png",
     "index.html": "/index.html",
     "main.96be708a.css.map": "/static/css/main.96be708a.css.map",
-    "main.053c2191.js.map": "/static/js/main.053c2191.js.map"
+    "main.5fc5c923.js.map": "/static/js/main.5fc5c923.js.map"
   },
   "entrypoints": [
     "static/css/main.96be708a.css",
-    "static/js/main.053c2191.js"
+    "static/js/main.5fc5c923.js"
   ]
 }
