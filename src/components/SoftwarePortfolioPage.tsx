@@ -5,9 +5,10 @@ import StaticNavigationBar from "./StaticNavigationBar";
 //images
 import hildibot from "../images/software/hildibot.png"
 import movieseats from "../images/software/elokuva_paikkavaraus.png"
-import tripletriad from "../images/software/TT.png"
 import coldfusion from "../images/software/coldfusion.png"
 import citybikeapp from "../images/software/helsinkicitybikeapp.png"
+import matinkyla1 from "../images/software/matinkylanseurahuone1.png"
+import matinkyla2 from "../images/software/matinkylanseurahuone2.png"
 
 let software = [
     {img: citybikeapp, title: "Helsinki City Bike App", desc: "SPA-application for browsing city bike journeys and stations.", tags: "Typescript, MariaDB, Node.js, Docker, React, Axios, ExpressJS, React Leaflet, OpenStreetMap", link: "https://github.com/iandersi/helsinki-citybike-app"},
@@ -16,6 +17,9 @@ let software = [
     {img: coldfusion, title: "Steam API App", desc: "Application that gets gameplay data from the Steam API.", tags: "Coldfusion, HTML5, CSS", link: "https://github.com/iandersi/steam-app-coldfusion"}
 ]
 
+let softwareShowcase = [
+    {img1: matinkyla1, img2: matinkyla2, title: "Matinkylän Seurahuone", desc: "React application I created for a restaurant. Application uses firebase/firestore, staff can update the menus and the updates are visible in real-time on the website. Still under development.", tags: "Typescript, React, Google Firebase (Firestore)"}
+]
 
 
 
@@ -28,17 +32,29 @@ export default function SoftwarePortfolioPage() {
                 <StaticNavigationBar/>
             </div>
             <div className="content software">
-                {software.map(software => {
-                    return (
-                        <div className="img-and-desc">
-                            <h4>{software.title}</h4>
-                            <img src={software.img}/>
-                            <div>{software.desc}</div>
-                            <div>{software.tags}</div>
-                            <a href={software.link}>Source Code</a>
-                        </div>
-                    )
-                })}
+                <div className="software-showcase">
+                    <h4>{softwareShowcase[0].title}</h4>
+                    <div>
+                        <img src={softwareShowcase[0].img1}/>
+                        <img src={softwareShowcase[0].img2}/>
+                    </div>
+                    <div>{softwareShowcase[0].desc}</div>
+                    <div>{softwareShowcase[0].tags}</div>
+                </div>
+                <div className="software-short-showcase">
+                    {software.map(software => {
+                        return (
+                            <div className="img-and-desc">
+                                <h4>{software.title}</h4>
+                                <img src={software.img}/>
+                                <div>{software.desc}</div>
+                                <div>{software.tags}</div>
+                                <a href={software.link}>Source Code</a>
+                            </div>
+                        )
+                    })}
+                </div>
+
             </div>
         </div>
     )

@@ -2,7 +2,6 @@ import React from "react";
 import Typewriter from "react-ts-typewriter";
 import AnimatedNavigationBar from "./AnimatedNavigationBar";
 import useDocumentTitle from "../hooks/useDocumentTitle";
-import Footer from "./Footer";
 
 
 export default function MainPage() {
@@ -18,7 +17,6 @@ export default function MainPage() {
                     <p><a href="https://github.com/iandersi?tab=repositories">Github</a></p>
                     <p><a href="https://inaandersin.wordpress.com/">Wordpress</a></p>
                     <p><a href="https://www.linkedin.com/in/ina-a-48956b177/">LinkedIn</a></p>
-                    <p>Artstation</p>
                 </div>
             </div>
         </>

@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: linear-gradient(-70deg, rgba(22,0,0,0) 50%, rgb(0, 0, 0) 95%) fixed, url("/public/main.jpeg") center / cover no-repeat fixed;
+  background: linear-gradient(-70deg, rgba(22,0,0,0) 50%, rgb(0, 0, 0) 95%) fixed, url("/public/main.webp") center / cover no-repeat fixed;
   font-family: 'Jost', sans-serif;
   height: 100%;
   color: white;
@@ -185,11 +185,9 @@ p {
 }
 
 
-
 .software {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   background: black;
   padding-top: 1rem;
@@ -202,6 +200,31 @@ p {
   margin: 0.5rem;
 }
 
+.software-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: grayscale(100%);
+}
+
+.software-showcase:hover {
+  filter: grayscale(0%);
+}
+
+.software-showcase > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  padding: 0.5rem;
+}
+
+.software-short-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 /* -- Footer -- */
