@@ -18,7 +18,7 @@ let software = [
 ]
 
 let softwareShowcase = [
-    {img1: matinkyla1, img2: matinkyla2, title: "Matinkylän Seurahuone", desc: "React application I created for a restaurant. Application uses firebase/firestore, staff can update the menus and the updates are visible in real-time on the website. Still under development.", tags: "Typescript, React, Google Firebase (Firestore)"}
+    {img1: matinkyla1, img2: matinkyla2, title: "Matinkylän Seurahuone", desc: "React application I created for a restaurant. Application uses firebase/firestore, staff can update the menus and the updates are visible in real-time on the website. Still under development.", tags: "Typescript, React, Google Firebase (Firestore)", link: "https://matinkylan-seurahuone.web.app/"}
 ]
 
 
@@ -40,6 +40,7 @@ export default function SoftwarePortfolioPage() {
                     </div>
                     <div>{softwareShowcase[0].desc}</div>
                     <div>{softwareShowcase[0].tags}</div>
+                    <a href={softwareShowcase[0].link}>Demo</a>
                 </div>
                 <div className="software-short-showcase">
                     {software.map(software => {

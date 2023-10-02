@@ -17,6 +17,7 @@ export default function MainPage() {
                     <p><a href="https://github.com/iandersi?tab=repositories">Github</a></p>
                     <p><a href="https://inaandersin.wordpress.com/">Wordpress</a></p>
                     <p><a href="https://www.linkedin.com/in/ina-a-48956b177/">LinkedIn</a></p>
+                    <p><a href="https://www.instagram.com/aratisan">Artwork</a></p>
                 </div>
             </div>
         </>

@@ -211,13 +211,21 @@ p {
   filter: grayscale(0%);
 }
 
+.software-showcase a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.software-showcase a:hover {
+  color: orange;
+}
+
 .software-showcase > div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   max-width: 100%;
-  padding: 0.5rem;
 }
 
 .software-short-showcase {

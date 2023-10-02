@@ -3,23 +3,22 @@ import useDocumentTitle from "../hooks/useDocumentTitle";
 import StaticNavigationBar from "./StaticNavigationBar";
 
 //images
-import necromancer from "../images/artwork/necromancer.png";
-import iomin from "../images/artwork/iomin.png";
-import rivorn from "../images/artwork/rivorn.png";
-import stagelight from "../images/artwork/stagelight.jpg";
-import hayfield from "../images/artwork/amata.png";
-import joker from "../images/artwork/joker_2020.jpg";
+import necromancer from "../images/artwork/necromancer_ara.png";
+import iomin from "../images/artwork/iomin - rework_ara.png";
+import thedarkurge from "../images/artwork/thedarkurge_ara.png";
+import forest from "../images/artwork/ForestbyAra_Commission_Alex.png";
+import light from "../images/artwork/light_ara.png";
 import dawn from "../images/artwork/cabin.png";
 import room from "../images/artwork/room.png";
 import bedroom from "../images/artwork/bedroom.png"
 
 let portraits = [
-    {img: necromancer, title: "Iarwath (2023)"},
     {img: iomin, title: "Iómin (2023)"},
-    {img: hayfield, title: "Hayfield (2023)"},
-    {img: rivorn, title: "Rivorn (2022 )"},
-    {img: stagelight, title: "Stagelight (2021)"},
-    {img: joker, title: "The Joker (2020)"}
+    {img: necromancer, title: "Iarwath (2023)"},
+    {img: forest, title: "Forest (2023)"},
+    {img: thedarkurge, title: "The Dark Urge (2023)"},
+    {img: light, title: "Light (2021)"}
+
 ]
 
 let blender = [
