@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.07961ac2.css",
-    "main.js": "/static/js/main.e69c9a66.js",
+    "main.css": "/static/css/main.ad327f98.css",
+    "main.js": "/static/js/main.6dc60d69.js",
     "static/media/cabin.png": "/static/media/cabin.53d6d78b19a7332bf251.png",
     "static/media/matinkylanseurahuone1.png": "/static/media/matinkylanseurahuone1.597cf66ec65de1c9cfb7.png",
     "static/media/bedroom.png": "/static/media/bedroom.4afc114ece182a47edd0.png",
@@ -9,21 +9,20 @@
     "static/media/helsinkicitybikeapp.png": "/static/media/helsinkicitybikeapp.1292679ee883f0a679a1.png",
     "static/media/matinkylanseurahuone2.png": "/static/media/matinkylanseurahuone2.ad679037b55a2e017331.png",
     "static/media/elokuva_paikkavaraus.png": "/static/media/elokuva_paikkavaraus.39e27b85b4ee7a392db6.png",
+    "static/media/ForestbyAra_Commission_Alex.png": "/static/media/ForestbyAra_Commission_Alex.2c08b23c7aab61a653ee.png",
+    "static/media/light_ara.png": "/static/media/light_ara.b1025685d5bd60fb69a3.png",
+    "static/media/iomin - rework_ara.png": "/static/media/iomin - rework_ara.c64aa0c2c6f49d386905.png",
     "static/media/main.webp": "/static/media/main.cdfea01b618b316bcda3.webp",
-    "static/media/amata.png": "/static/media/amata.ec720d473bcc1a2c7499.png",
-    "static/media/iomin.png": "/static/media/iomin.46926c367b8fe4d817b8.png",
-    "static/media/rivorn.png": "/static/media/rivorn.7dcb891ea172d85b6ec1.png",
-    "static/media/joker_2020.jpg": "/static/media/joker_2020.e1152bbda26127528889.jpg",
-    "static/media/necromancer.png": "/static/media/necromancer.afe012584bccbd4d9bbc.png",
-    "static/media/stagelight.jpg": "/static/media/stagelight.77fe3bd4504a2b42fcbd.jpg",
+    "static/media/thedarkurge_ara.png": "/static/media/thedarkurge_ara.b30901e71153a421dfd3.png",
+    "static/media/necromancer_ara.png": "/static/media/necromancer_ara.4a2370a02d94fae14489.png",
     "static/media/coldfusion.png": "/static/media/coldfusion.bd4aad2857dbd74dd3cc.png",
     "static/media/hildibot.png": "/static/media/hildibot.edb39e848e561dce176b.png",
     "index.html": "/index.html",
-    "main.07961ac2.css.map": "/static/css/main.07961ac2.css.map",
-    "main.e69c9a66.js.map": "/static/js/main.e69c9a66.js.map"
+    "main.ad327f98.css.map": "/static/css/main.ad327f98.css.map",
+    "main.6dc60d69.js.map": "/static/js/main.6dc60d69.js.map"
   },
   "entrypoints": [
-    "static/css/main.07961ac2.css",
-    "static/js/main.e69c9a66.js"
+    "static/css/main.ad327f98.css",
+    "static/js/main.6dc60d69.js"
   ]
 }
